@@ -46,7 +46,6 @@ print(all_items)
 cart = {}
 count = 0
 starting_money = 1000
-welcome_msg = "Hi, welcome to our"
 
 for v in freelancers, antiques, pet_shop:
     ask_buyer = input(f"Welcome to shop {v['name']}! Which item do you want to buy? (type exit to buy nothing)").lower()
